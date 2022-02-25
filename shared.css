@@ -1,0 +1,21 @@
+.headerImage{
+    width: 100%;
+    max-height: 50em;
+}
+
+footer{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: purple;
+
+}
+.footerListItems {
+list-style: none;
+display: inline-flex;
+
+}
+
+.footerListItem {
+    margin: 2em;
+}
