@@ -4,23 +4,38 @@
     margin-right: auto;
     margin-top: 1em;
     margin-bottom: 2em;
+    width: 100%;
+    max-height: 30em;
 }
 
+.featuredArticles{
+    text-align: center;
+    font-size: xx-large;
+}
 
 .articleList{
-    width: 80%;
-    margin: auto;
+    width: 100%;
     text-align: center;
+    display: grid;
+    grid-template-columns: minmax(1.2rem, 2fr) minmax(1.2rem, 2fr) minmax(1.2rem, 2fr) ;
+    gap:.5rem;
 }
 
 .article{
     border-style: double;
     background-color: blue;
-    margin:1em
+font-size: xx-large;
+height: 35em;
 }
 
 .articleImage {
+    margin-top: 2em;
     border-radius: 60px;
     max-width: 15rem;
     max-height: 15rem;
+    height: 100%;
+}
+a{
+    font-size: 50px;
+    color:white
 }
