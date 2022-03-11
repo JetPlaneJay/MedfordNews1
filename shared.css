@@ -13,9 +13,12 @@ footer{
 .footerListItems {
 list-style: none;
 display: inline-flex;
-
 }
 
 .footerListItem {
+    margin: 1em;
+}
+
+main {
     margin: 2em;
 }
