@@ -20,6 +20,11 @@
     grid-template-columns: minmax(1.2rem, 2fr) minmax(1.2rem, 2fr) minmax(1.2rem, 2fr) ;
     gap:.5rem;
 }
+@media  (min-width: 900px) {
+    .articleList{
+    gap:2.5rem;
+    }
+}
 
 .article{
     border-style: double;
