@@ -1,47 +1,32 @@
-.newspaperImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    margin-bottom: 2em;
+.headerImage{
     width: 100%;
-    max-height: 30em;
+    max-height: 50em;
 }
 
-.featuredArticles{
-    text-align: center;
-    font-size: xx-large;
-}
-
-.articleList{
+footer{
     width: 100%;
+    justify-content: center;
     text-align: center;
-    display: grid;
-    grid-template-columns: minmax(1.2rem, 2fr) minmax(1.2rem, 2fr) minmax(1.2rem, 2fr) ;
-    gap:.5rem;
-}
-
-.article{
-    border-style: double;
-    background: linear-gradient(#e0ffff 75%, #9bddff);
-
-height: 105%;
-
+    background-color: purple;
+    max-height: fit-content;
 
 }
+.footerListItems {
+list-style: none;
+display: flex;
+align-items: center;
+}
 
-.articleText {
-font-size: 5vw;
+.footerListItem {
+    margin: .5em;
 
 }
 
-.articleImage {
-    width:100%;
-    max-height: 15rem;
- height: 30%;
+.footer-link{
+
+    font-size: 3vw;
 }
-a{
-    text-align: center;
-    font-size: 5vw;
-    color:black;
+
+main {
+    margin: 2em;
 }
