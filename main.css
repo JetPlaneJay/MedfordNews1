@@ -1,82 +1,39 @@
-.newspaperImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
+.headerImage{
     width: 100%;
-    height:30%;
-
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: gray 3px 5px;
+    max-height: 50em;
 }
 
-.newspaperList{
-    margin-top: 0%;
-}
-
-.featuredArticles{
-    text-align: center;
-    font-size: xx-large;
-}
-
-.articleList{
+footer{
     width: 100%;
+    height: 5em;
+
     text-align: center;
-    display: grid;
-    grid-template-columns: minmax(1.2rem, 2fr) minmax(1.2rem, 2fr) minmax(1.2rem, 2fr) ;
-    gap:.5rem;
+    background-color: purple;
+
 }
 
-@media  (min-width: 900px) {
-    .articleList{
-    gap:2.5rem;
+.copyright {
+    padding-top: 2em;
+}
+/* .footerListItems {
+list-style: none;
+display: inline-flex;
+}
+
+.footerListItem {
+    margin: 1em;
+
+}
+.footer-link {
+    font-size: 2.5vh;
+} */
+
+main {
+    margin: 2em;
+}
+
+@media (min-width:900px) {
+    main{
+        margin: 5em;
     }
-}
-
-.article{
-    border-style: double;
-    background: linear-gradient(#e0ffff 75%, #9bddff);
-
-height: 105%;
-border-radius: 10px;
-
-
-}
-
-.articleText {
-font-size: 5vw;
-
-}
-
-.articleImage {
-    width:100%;
-    max-height: 15rem;
- height: 30%;
- border-radius: 8px;
-
-}
-a{
-    text-align: center;
-    font-size: 5vw;
-    color:black;
-}
-
-.imageAndMapSection {
-    text-align: center;
-    justify-content: center;
-    margin: auto;
-}
-
-.plaza {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    margin-bottom: 2em;
-    border-radius: 10px;
-
-    width: 100%;
-
-
 }
