@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="localnews.css">
 </head>
 
-
+<body>
 <header>
     <nav class="header-nav">
         <ul class="header-nav__items">
@@ -29,29 +29,36 @@
 
 
 <main>
+    <button onclick="introduction()">Introduce yourself</button>
+    <p class="intro"></p>
     <h1>Local News</h1>
     <section class="articles">
         <article class="article article1">
             <h2>Article Description</h2>
-            <a href="google.com">Link</a>
             <p>raison d'etre</p>
             <p>There are times where things go unheardand unseen by the public.<br><br>This page involves the many people of Medford Oregon. </p>
         </article>
+
         <article class="article article2">
             <h2> 03/9/22<br>(approximate date)</h2>
-            <a href="google.com">Link</a>
-            <p>Man seen walking along street late at night, singing silently along with music heard via wireless headphones. <br>Older man seen leaving hospital after late-night shift. <br>The two strangers wave for a moments and smile.</p>
+            <button class="articleButton articleButton1">Show Article</button>
+            <button class="articleButton articleButton1Close">Hide Article</button>
+            <p class="article2text" style="visibility: hidden; font-size: .01em;">Man seen walking along street late at night, singing silently along with music heard via wireless headphones. <br>Older man seen leaving hospital after late-night shift. <br>The two strangers wave for a moments and smile.</p>
         </article>
+
         <article class="article article3">
-            <h2>Article 3</h2>
-            <a href="google.com">Link</a>
-            <p>Mother and son spotted walking around neighborhood talking of life.</p>
+            <h2>2/20/22</h2>
+            <button class="articleButton articleButton2">Show Article</button>
+            <button class="articleButton articleButton2Close">Hide Article</button>
+            <p class="article3text" style="visibility: hidden; font-size: .01em;">Mother and son spotted walking around neighborhood talking of life.</p>
         </article>
+
         <article class="article article4">
             <h2>Article 4</h2>
             <a href="google.com">Link</a>
             <p>description of article</p>
         </article>
+
         <article class="article article5">
             <h2>Article 5</h2>
             <a href="google.com">Link</a>
@@ -63,14 +70,11 @@
             <p>description of article</p> 
         </article>
         <article class="article article7">
-            <h2>Article 7</h2>
-            <a href="google.com">Link</a>
-            <p>description of article</p> 
+            <img src="../images/scenery.jpg" class="sceneryIMG">
         </article>
         <article class="article article8">
-            <h2>Article 8</h2>
-            <a href="google.com">Link</a>
-            <p>description of article</p> 
+
+            <iframe class="youTubeVideo" width="560" height="315" src="https://www.youtube.com/embed/o5VHedcr0bo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </article>
         <article class="article article9">
             <h2>Article 9</h2>
@@ -90,3 +94,10 @@
 <footer>
     <p class="copyright">&copy; Copyright 2022 Jacob's Page</p>
 </footer>
+
+<script src="../script.js">
+
+
+</script>
+
+</body>
