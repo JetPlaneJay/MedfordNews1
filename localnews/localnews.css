@@ -14,15 +14,19 @@ button {
     display: grid;
     grid-gap: 20px;
     /* border: 10px solid var(--yellow); */
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(200px, 10fr)); 
 
 
 }
 
 .article {
-    background-color: aqua;
+    background: 	#A0A0A0;
     border-radius: 20px;
-    box-shadow: 10px 10px grey;
+    box-shadow: 20px 20px 20px #8888;
+    }
+
+    .article > p {
+        font-size: 20px;
     }
 
 .article1 {
@@ -50,6 +54,13 @@ button {
 .article10{
     grid-column: 1 / -1;
     
+}
+
+.zerg {
+    width: 100%;
+    
+    height: 100%;
+    border-radius: 20px;
 }
 
 .sceneryIMG {
