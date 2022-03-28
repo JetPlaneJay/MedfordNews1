@@ -34,6 +34,28 @@
 
 
 
+
+// const bleh = (e) => {
+//     const blah = document.querySelector('.article');
+//     blah.style.transform = scale(1.5);
+// }
+
+// const blee = document.querySelector('.article');
+// blee.addEventListener('click', bleh)
+
+
+
+
+// const ya = (e) => {
+//     const invisible = document.querySelector(".article2text")
+//     invisible.style.visibility = "hidden";
+//     invisible.style.fontSize = ".01em"
+// }
+
+// const buttonHide = document.querySelector(".articleButton1Close")
+// buttonHide.addEventListener('click', ya)
+
+
 // const changer = e => {
 //     const changed = document.querySelector('.article');
 //     const blah = document.querySelector('.text2');
@@ -119,7 +141,7 @@ function introduction() {
 const hey = e => {
     const visible = document.querySelector(".article2text");
     visible.style.visibility= "visible";
-    visible.style.fontSize = "1em";
+    visible.style.fontSize = "20px";
 };
 
 const buttonShow = document.querySelector(".articleButton1")
