@@ -151,7 +151,7 @@ buttonShow.addEventListener('click', hey);
 const yo = e => {
     const visible = document.querySelector(".article3text");
     visible.style.visibility= "visible";
-    visible.style.fontSize = "1em";
+    visible.style.fontSize = "20px";
 };
 
 const buttonShow1 = document.querySelector(".articleButton2")
