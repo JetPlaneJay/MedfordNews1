@@ -35,11 +35,18 @@ display: inline-flex;
 } */
 
 main {
-    margin: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
 }
 
-@media (min-width:900px) {
+@media (max-width:900px) {
     main{
-        margin: 5em;
+        margin: 0;
     }
 }
+
+
+:root {
+    --yellow: #ffc600;
+    --black: #272727;
+  }
